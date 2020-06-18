@@ -5,7 +5,7 @@
 
 btn.addEventListener("click", function(){
   var par = document.getElementById('par');
-  var numero = prompt("Inserisci un numero").value;
+  var numero = prompt("Inserisci un numero");
   if(numero > 0){
    par.className = par.className + "green";
   } else if(numero < 0){
