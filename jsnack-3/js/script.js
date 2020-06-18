@@ -6,13 +6,11 @@
 btn.addEventListener("click", function(){
   var par = document.getElementById('par').value;
   var numero = prompt("Inserisci un numero").value;
-})
-
-
-if(numero > 0){
- par.className = par.className + "green";
-} else if(numero < 0){
-  par.classname = par.className + "red";
-} else{
-  par.classname = par.className + "blue";
-}
+  if(numero > 0){
+   par.className = par.className + "green";
+  } else if(numero < 0){
+    par.classname = par.className + "red";
+  } else{
+    par.classname = par.className + "blue";
+  }
+});
