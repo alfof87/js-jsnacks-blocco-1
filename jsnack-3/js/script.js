@@ -1,5 +1,5 @@
 //Al click su un bottone, il programma acquisisce tramite prompt un numero. Se il numero è positivo, il background di un p#colore diventa verde, se negativo rosso e se zero blu.
-var numero = prompt("Inserisci un numero");
+
 
 
 
