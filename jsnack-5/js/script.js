@@ -5,8 +5,8 @@
 var btn = document.getElementById("btn");
 
 document.getElementById("btn").addEventListener("click", function(){
-  var num1 = document.getElementById('num1').value;
-  var num2 = document.getElementById('num2').value;
+  var num1 = parseInt(document.getElementById('num1').value);
+  var num2 = parseInt(document.getElementById('num2').value);
   var op = document.getElementById("operazioni").value;
   var result = document.getElementById('result');
 //  var somma = document.getElementById('somma') = num1 + num2;
@@ -15,11 +15,11 @@ document.getElementById("btn").addEventListener("click", function(){
 //  var divisione = document.getElementById('divisione') = num1 / num2;
 //  var result = document.getElementById('result') =
 
-  if (op == somma){
+  if (op == 1){
     result.innerHTML = num1 + num2;
-  }else if (op == sottrazione) {
+  }else if (op == 2) {
     result.innerHTML = num1 - num2;
-  }else if (op == moltiplicazione) {
+  }else if (op == 3) {
     result.innerHTML = num1 * num2;
   }else {
     result.innerHTML = num1 / num2;
