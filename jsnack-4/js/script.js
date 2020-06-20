@@ -4,17 +4,20 @@
 
 
 document.getElementById('btn').addEventListener("click", function(){
+  var etichetta = document.getElementById('numero');
   var numero = Math.floor(Math.random()*10);
  console.log(numero);
+ console.log(document.getElementById("numero"));
+
+ document.getElementById("numero").classList.add("pari", "dispari");
 
 
- numero.classList.add("pari dispari");
+if(numero%2 == 1){
+  document.getElementById("numero").classList.remove("dispari");
+}else {
+  document.getElementById("numero").classList.remove("pari");
+}
 
- if (numero = pari){
-   numero.classList.remove("dispari");
- }else{
-   numero.classList.remove("pari");
- }
 });
 
 
