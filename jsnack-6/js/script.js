@@ -7,5 +7,11 @@ var btn = document.getElementById('btn');
 document.getElementById('btn').addEventListener("click", function (){
   var numCasuale = Math.floor(Math.random()*10);
   console.log(numCasuale);
+  document.getElementById("numero").classList.add("pari", "dispari");
+  if(numero%2 == 1){
+  document.getElementById("numero").classList.remove("dispari");
+}else {
+  document.getElementById("numero").classList.remove("pari");
+}
 
 });
