@@ -5,8 +5,8 @@
 var btn = document.getElementById('btn');
 
 document.getElementById('btn').addEventListener("click", function (){
-  var numCasuale = Math.floor(Math.random()*10);
-  console.log(numCasuale);
+  var numero = Math.floor(Math.random()*10);
+  console.log(numero);
   document.getElementById("numero").classList.add("pari", "dispari");
   if(numero%2 == 1){
   document.getElementById("numero").classList.remove("dispari");

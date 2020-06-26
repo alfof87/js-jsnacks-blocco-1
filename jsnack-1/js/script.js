@@ -9,7 +9,7 @@ if (numeroA > numeroB){
 else if (numeroB > numeroA){
   numeroMaggiore = numeroB;
 }
-else (numeroA == numeroB) {
+else{
   numeroMaggiore = pari;
 }
 
