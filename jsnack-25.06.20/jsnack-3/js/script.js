@@ -3,12 +3,12 @@
 // inseriti. Esegui questo programma in due versioni, con il for
 // e con il while.
 
-var num = prompt("inserisci il numero");
+
 somma = 0;
 
 for(i = 0; i < 5; i++){
-
-  var somma += parseInt(num[i])
+var num = prompt("inserisci il numero");
+somma += parseInt(num);
   //console.log(parseInt(num));
 
 }
